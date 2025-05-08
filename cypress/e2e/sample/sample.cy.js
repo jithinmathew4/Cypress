@@ -4,7 +4,7 @@ describe('Sample Cypress Test', () => {
     it('should visit a website and verify the title', () => {
       // Visit the website
       cy.visit('https://example.cypress.io');
-  
+  // sample test
       // Verify the page title
       cy.title().should('include', 'Cypress');
     });
