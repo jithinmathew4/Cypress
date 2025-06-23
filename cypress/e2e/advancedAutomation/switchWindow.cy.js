@@ -15,3 +15,4 @@ describe('Handling Switch Window on Rahul Shetty Academy', () => {
       cy.get('.navbar-brand').should('be.visible');
     });
   });
+  
